@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 600px;
+    background-image: url(../image/tr1.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding-top: 30px;
+    text-align: center;
+    color: black;
+ 
+    
+    
+}
+.header img{
+    width: 80px;
+    height: 40px;
+    float: left;
+    background-color: transparent;
+    
+}
+.header .btn-logo{
+    width: 100px;
+    float: right;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 40%;
+    outline: none;
+    padding: 0px 8px;
+}
+.header .flox{
+/*     display: flex;*/
+    justify-content: center;
+    align-items: center;
+/*    align-content: center;*/
+/*    text-align: center;*/
+    
+}
+.header h1{
+    padding-top: 190px;
+/*    padding-bottom: 0px;*/
+}
+.header p{
+/*    margin: 12px;*/
+/*    font-size: 20px;*/
+}
+
+.input-group{
+  
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+    padding: 2px;
+    box-shadow: none;
+    border-radius: 30px; 
+   
+}
+.form-control{
+    border: 0;
+    border-radius: 30px;
+}
+.input-group-text{
+    border: 0;
+    border-radius: 30px;
+    box-shadow: none;
+    padding: 0px 15px;
+    width: 100px;
+    background-color:#3BB9FF ;
+}
+
+/*featuers*/
+.featuers{
+/*    text-align: center;*/
+    margin: auto;
+    padding: 60px 0px ;
+}
+.featuers h1{
+     font-weight: 600;
+     text-align: center;
+     margin-bottom: 30px;
+}
+
+.featuers .box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,.18);
+    margin-bottom: 30px;
+    
+}
+.back-img {
+    position: relative;
+/*    overflow: hidden;*/
+    
+}
+
+.price{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    bottom: -30px;
+    background-color: darkorange;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 1px orange;
+    float: left;
+}
+
+.rating{
+    float: right;
+    position: absolute;
+    right: 60px;
+    bottom: -1px;
+    background-color: white;
+    padding: 3px;
+}
+
+ i{
+    color: orange;
+    font-size: 15px;
+}
+
+.details{
+    padding: 10px;
+    text-align: justify; 
+    
+}
+.details h3{
+    margin-top: 30px;
+     font-weight: 600;
+    
+}
+.details  p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.details  span{
+    margin-right: 5px;
+}
+/*//////////gallary///////////*/
+.gallary{
+    text-align: center;
+    padding: 50px 0px;
+    background-color: #efefef;
+}
+.gallary .box2{
+    cursor: pointer;
+    margin: 30px 0px;
+    position: relative;
+}
+.gallary img{
+    border-radius: 10px;
+    transition: all 1s;
+/*    position: relative;*/
+}
+.gallary img:hover{
+    transform: scale(1.1);
+    
+}
+
+.gallary .box2:hover h4{
+    transform: rotate(360deg);
+}
+.gallary h4{
+    position: absolute;
+    top:50%;
+    left: 38%;
+    color: firebrick;
+    font-size: 30px;
+    font-weight: 600;
+    transition: all 1s;
+/*    transition-delay: 1s*/
+    
+}
+.banner{
+    height: 600px;
+    background-image: url(../image/252525.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 18%;
+    
+    
+    
+}
+.banner .banner-height{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(0,0,0,.7);
+    padding: 70px 0px;
+   
+}
+.btn-book{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 40%;
+    outline: none;
+    padding: 0px 8px; 
+    
+}
+
+
+.feedback{
+    padding: 100px 0px;
+    text-align: center;
+  
+}
+.feedback .box3{
+      box-shadow: 0px 0px 10px 0 rgba(0,0,100,0.2);
+      padding-bottom: 50px;
+        text-align: center;
+
+}
+
+.feedback .box3 p{
+    padding: 50px 10px 10px 10px;
+    
+}
+.feedback .box3 p::before{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: aqua;
+    left: 44%;
+    top: -30px;
+    
+    
+    
+}
+.feedback .box3 small{
+    display: block;
+    padding: 2px 0px 10px 0px ;
+}
+.feedback img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 2px 30px 10%;
+    
+}
+
+
+
+
+.footer{
+    padding: 70px 20px;
+    background-image: linear-gradient(#2d557d,#9610fb);
+    color: white;
+    text-align: center
+}
+
+.footer .f1 img{
+    margin: 15px 0px 0px 15px;
+    width: 50px;
+    cursor: pointer;
+}
+.footer .f1 P{
+    padding: 5px;
+    margin-top: 5px;
+    text-align: left
+}
+.footer .f2{
+    margin-left: 20px;
+}
+.footer .f2 h4{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer .f2 p{
+    font-size: 15px;
+    text-align: left; 
+    cursor: pointer;
+}
+.footer .f3 h4{
+      text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer .f3 i{
+    padding-right: 10px;
+}
+.footer .f3 p{
+     font-size: 15px;
+    text-align: left; 
+    cursor: pointer;
+}
+.footer .f4 h4{
+        text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer .f4 p{
+     font-size: 15px;
+    text-align: left; 
+    cursor: pointer;
+}
+.footer .f4 i{
+    padding-right: 10px;
+}
